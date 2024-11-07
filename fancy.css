@@ -1,0 +1,89 @@
+.education {
+            color:blueviolet
+}
+
+.contact {
+            color:navy
+}
+
+.skills {
+            color:aqua
+}
+
+.work {
+            color:blue
+    
+}
+
+p {
+     font-size:  12px;
+    font-family :Georgia, 'Times New Roman', Times, serif serif;
+}
+
+h1 {
+    font-size:  32px; 
+}
+h2 {
+    font-size:  24px; 
+}
+h3 {
+    font-size:  21px; 
+}
+h4 {
+    font-size:  16px; 
+}
+h5 {
+    font-size:  14px; 
+}
+h6 {
+    font-size:  12px; 
+}
+a {
+    color:orchid;
+}
+
+body{
+    background-color: lightgrey;
+}
+/* id-based rule */
+#bold {
+    font-weight: bold;
+}
+/* class-based rule */
+.red {
+    color: purple;
+}
+    
+td {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+    font-family: sans;
+}
+    
+#turn {
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 22pt;
+    background-color: #777777;
+    width: 340px;
+}
+    
+td:nth-child(1) {
+    border-left: none;
+}
+    
+td:nth-child(3) {
+    border-right: none;
+}
+    
+tr:nth-child(1) > td {
+    border-top: none;
+}
+    
+tr:nth-child(3) > td {
+    border-bottom: none;
+}
